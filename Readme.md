@@ -82,13 +82,13 @@ This project demonstrates secure WebSocket communication between a Spring Boot b
 
 ## File Descriptions
 
-1.** MessageController.java**: Handles incoming requests and sends JWT tokens over WebSocket.
+1. **MessageController.java**: Handles incoming requests and sends JWT tokens over WebSocket.
 
 2. **JwtService.java**: Provides JWT token generation and verification services.
 
 3. **Message.java**: Defines the data model for messages exchanged over WebSocket.
 
-4.** JwtWebsocketApplication.java**: Main entry point for the Spring Boot application.
+4. **JwtWebsocketApplication.java**: Main entry point for the Spring Boot application.
 
 5. **application.properties**: Configuration properties for the Spring Boot application.
 
