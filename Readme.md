@@ -10,7 +10,7 @@ This project demonstrates secure WebSocket communication between a Spring Boot b
 1. Generates JWT tokens containing a message.
 2. Establishes a WebSocket connection with a FastAPI server.
 3. Sends the JWT token over the WebSocket connection.
-4. Handles token expiration by generating a new token after 10 seconds.
+4. Handles token expiration by generating a new token after 9 seconds.
 
 ### FastAPI Server
 1. Runs a WebSocket endpoint that listens for incoming connections.
@@ -45,7 +45,7 @@ This project demonstrates secure WebSocket communication between a Spring Boot b
 
 4. FastAPI sends a confirmation back to Spring Boot.
 
-5. Token expires after 10 seconds.
+5. Token expires after 9 seconds.
 
 6. Spring Boot generates a new token.
 
@@ -56,7 +56,7 @@ This project demonstrates secure WebSocket communication between a Spring Boot b
 
 ## Project Structure
 
-    code/
+    WS_JWT_Exp/
     ├── spring-boot/
     │   ├── src/
     │   │   ├── main/
@@ -112,7 +112,7 @@ Maven
 pip (Python package installer)
 
 
-Upon starting, the Spring Boot application will generate a JWT token, establish a WebSocket connection with the FastAPI server, send the token, and print the results of the communication. The FastAPI server will handle the received token, decode it, and respond appropriately. After 10 seconds, the token will expire, and the Spring Boot application will generate a new token, which will be processed similarly by the FastAPI server.
+Upon starting, the Spring Boot application will generate a JWT token, establish a WebSocket connection with the FastAPI server, send the token, and print the results of the communication. The FastAPI server will handle the received token, decode it, and respond appropriately. After 9 seconds, the token will expire, and the Spring Boot application will generate a new token, which will be processed similarly by the FastAPI server.
 
 
 ## License
