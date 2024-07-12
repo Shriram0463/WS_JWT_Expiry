@@ -112,7 +112,11 @@ Maven
 pip (Python package installer)
 
 
-Upon starting, the Spring Boot application will generate a JWT token, establish a WebSocket connection with the FastAPI server, send the token, and print the results of the communication. The FastAPI server will handle the received token, decode it, and respond appropriately. After 9 seconds, the token will expire, and the Spring Boot application will generate a new token, which will be processed similarly by the FastAPI server.
+## Overall View
+
+Upon starting, the Spring Boot application will generate a JWT token, establish a WebSocket connection with the FastAPI server, send the token, and print the results of the communication. 
+
+The FastAPI server will handle the received token, decode it, and respond appropriately. After 9 seconds, the token will expire, and the Spring Boot application will generate a new token, which will be processed similarly by the FastAPI server.
 
 
 ## License
