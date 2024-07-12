@@ -1,6 +1,6 @@
 # JWT WebSocket Communication
 
-This project demonstrates secure WebSocket communication between a Spring Boot backend and a FastAPI server using JWT (JSON Web Tokens) for authentication and message passing.
+This project demonstrates secure WebSocket communication between a Spring Boot backend and a FastAPI server using JWT (JSON Web Tokens) for authentication, message passing, and token expiration handling.
 
 
 ## Overview
